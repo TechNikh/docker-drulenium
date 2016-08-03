@@ -96,6 +96,7 @@ RUN /etc/init.d/mysql start && \
     drush vset --yes drulenium_vr_release_imagemagick_path '/usr/bin' && \
     drush en libraries -y && \
     drush vr-download-webdriver && \
+    drush vr-download-blockly && \
     drush dl admin_menu devel && \
     drush en -y admin_menu
 
