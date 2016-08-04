@@ -5,7 +5,8 @@ Quick and easy to use Docker container for your *local Drulenium testing*. It co
 
 Installation
 ------------
-
+### Using graphical interface through Kitematic
+http://drulenium.org/how-to-install-drulenium-locally-using-docker-gui
 ### Github
 
 Clone the repository locally and build it:
